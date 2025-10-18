@@ -8,7 +8,7 @@ const Weather = () => {
   const [ data, setData ] = useState({})
   const [ location, setLocation ] = useState('')
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=ed12da8e096557d9eeb0180e48c37e60`
+  const url = `YOUR_API_KEY_HERE`
 
   const searchLocation = (event) => {
      if(event.key === 'Enter') {
